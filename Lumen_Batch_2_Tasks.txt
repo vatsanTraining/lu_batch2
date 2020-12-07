@@ -23,3 +23,37 @@ like his name, mobile number etc., and the plan name , and also amount he has to
 - method names camel case , variable name should be meaningful not one or two - character, class should be in a package and add required comments
 
 ==========================================================================
+DAY -2   LAB -2
+
+ => DONE    1. Method Overloading
+ => DONE    2. Static / variable/method/import
+ =>  DONE   3. Scanner class
+ => DONE    4. Flow Control
+============================================================================
+  DAY 2 - Assignment -2
+
+Create Java Class Book with details like id,bookName,author,price.
+
+Create a Java Class BookService Which will have overloaded methods
+to calculate the price discount .
+
+=> One Method will book as argument and calculate the discount on the 
+    basis of price - use a simple if else ladder 
+
+=> Another Method will take book and customer type -> Corporate or Retail 
+   and the discount will be calculated using if else-if ladder 
+
+ => Take the input for the applicatio using scanner class 
+
+ =>  Test Both the Methods
+======================================================================== 
+
+
+
+
+
+
+
+
+
+=====================================================================
