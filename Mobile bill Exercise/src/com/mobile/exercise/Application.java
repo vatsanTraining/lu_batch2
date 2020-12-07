@@ -16,6 +16,7 @@ public class Application {
 		System.out.println(MobileBill.providerName);
 		System.out.println(shreyas.getPlanAmount(shreyas.getPlanName()));
 		
+		// Overloading 
 		MobileBill ramesh = new MobileBill("Ramesh", "Default", "9232345432");
 		
 		System.out.println(ramesh.getUserName());
@@ -24,9 +25,15 @@ public class Application {
 		System.out.println(MobileBill.providerName);
 		System.out.println(ramesh.getPlanAmount(ramesh.getPlanName()));
 		
+		
+		
 		MobileBill suresh = new MobileBill("Suresh","9432452341");
 		
-
+		System.out.println(suresh.getUserName());
+		System.out.println(suresh.getMobileNumber());
+		System.out.println(suresh.getPlanName());
+		System.out.println(MobileBill.providerName);
+		System.out.println(suresh.getPlanAmount(suresh.getPlanName()));
 	}
 
 }
