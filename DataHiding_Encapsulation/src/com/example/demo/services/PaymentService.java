@@ -6,16 +6,17 @@ public class PaymentService {
 
 	
 	// The modifer is protected --->
-	
-	protected double calculateSalary(Professor prof) {
+	// If its protected it can only accessed in samepackage or subclasses 
+	// protected double calculateSalary(Professor prof) {
 		
+		public double calculateSalary(Professor prof) {
 		 double salary = 50000.00;
 		 
 		 // Objects like String should be compared with .equals and not  ==
 		 if(prof.getQualification().equals("PG")) {
 			 salary = 60000.00;
 			 
-			 // can also case insenstive comparison with ignorecase
+			 // can also case in-sensitive comparison with ignore case
 		  } else if (prof.getQualification().equalsIgnoreCase("phd")) {
 			
 			 salary = 75000.00;
@@ -23,7 +24,9 @@ public class PaymentService {
 			 
 		 	 	 return salary;
 		
+		 	 	 
 	}
+	// The following method is a overloaded Method argument is String than Professor
 		// Switch case with String - New from Java 7 - earlier it was just int and char
 	public double calculateSalary(String qualification) {
 		
