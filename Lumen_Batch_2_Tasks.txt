@@ -1,0 +1,59 @@
+==========================================
+DAY - 2 - Lab -1
+
+ => DONE  1. Constructor -> 
+ => DONE  2. Constructor overloading
+ => DONE  3. Variables / casting
+ => DONE  4. Wrapper Class
+ => DONE  5. Auto Boxing
+ => DONE 6. Eclipse Features  / console /perspective/ problems / show and hide tabs
+
+===================================================
+
+DAY 2 - Assignment -1 
+
+Create a Java Class to represent  mobileBill -> should have details of customer 
+like his name, mobile number etc., and the plan name , and also amount he has to pay
+
+-Create overloaded constructor and test them
+
+- Use instance and atleast one static variable in the class
+
+- Class Name should be noun first character upper case / method names verb
+- method names camel case , variable name should be meaningful not one or two - character, class should be in a package and add required comments
+
+==========================================================================
+DAY -2   LAB -2
+
+ => DONE    1. Method Overloading
+ => DONE    2. Static / variable/method/import
+ =>  DONE   3. Scanner class
+ => DONE    4. Flow Control
+============================================================================
+  DAY 2 - Assignment -2
+
+Create Java Class Book with details like id,bookName,author,price.
+
+Create a Java Class BookService Which will have overloaded methods
+to calculate the price discount .
+
+=> One Method will book as argument and calculate the discount on the 
+    basis of price - use a simple if else ladder 
+
+=> Another Method will take book and customer type -> Corporate or Retail 
+   and the discount will be calculated using if else-if ladder 
+
+ => Take the input for the applicatio using scanner class 
+
+ =>  Test Both the Methods
+======================================================================== 
+
+
+
+
+
+
+
+
+
+=====================================================================
