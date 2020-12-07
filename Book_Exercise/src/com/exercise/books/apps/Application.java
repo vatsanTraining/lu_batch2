@@ -1,7 +1,7 @@
 package com.exercise.books.apps;
 
 import com.exercise.books.Book;
-import com.exercise.books.BookService.BookService;
+import com.exercise.books.services.BookService;
 import java.util.*;
 
 public class Application {

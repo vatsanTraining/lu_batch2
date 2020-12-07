@@ -1,4 +1,4 @@
-package com.exercise.books.BookService;
+package com.exercise.books.services;
 
 import com.exercise.books.Book;
 
