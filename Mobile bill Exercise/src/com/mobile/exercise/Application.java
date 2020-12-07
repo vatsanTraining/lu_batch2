@@ -16,7 +16,7 @@ public class Application {
 		System.out.println(MobileBill.providerName);
 		System.out.println(shreyas.getPlanAmount(shreyas.getPlanName()));
 		
-		// Overloading 
+		// Overloaded function calls 
 		MobileBill ramesh = new MobileBill("Ramesh", "Default", "9232345432");
 		
 		System.out.println(ramesh.getUserName());

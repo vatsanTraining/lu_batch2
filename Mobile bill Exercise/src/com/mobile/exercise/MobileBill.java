@@ -5,7 +5,7 @@ public class MobileBill {
 	private String userName;
 	private String planName;
 	private String mobileNumber;
-	private float planAmount;
+	private double planAmount;
 	public static final String providerName = "Airtel";
 	
 	// Setters and Getters 
@@ -52,13 +52,12 @@ public class MobileBill {
 		this.planAmount = getPlanAmount(this.planName);
 	}
 	
-	public float getPlanAmount(String planName) {
-		float amount = 100.00F;
-		if(planName != "Default") {
-			amount = 300.00F;
-			return amount;
-		}else
-			return amount;
+	public double getPlanAmount(String planName) {
+		double amount = 100.00;
+		if(!(planName.equals("Default"))) {
+			amount = 300.00;
+		}
+		return amount;
 	}
 
 	
