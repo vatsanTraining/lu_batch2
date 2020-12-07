@@ -60,6 +60,8 @@ public class PaymentService {
 		// static method accessed without Class name because static import is used
 				System.out.println(sqrt(4));
 				
+				System.out.println(Math.sin(30));
+				
 	}
 	
 	
