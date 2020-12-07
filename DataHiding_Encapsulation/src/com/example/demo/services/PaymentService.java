@@ -1,9 +1,13 @@
 package com.example.demo.services;
-
+import static java.lang.Math.*;
 import com.example.demo.Professor;
 
 public class PaymentService {
 
+	private double housingLoan;
+	
+	private static double houseLoan;
+	
 	
 	// The modifer is protected --->
 	// If its protected it can only accessed in samepackage or subclasses 
@@ -30,6 +34,10 @@ public class PaymentService {
 		// Switch case with String - New from Java 7 - earlier it was just int and char
 	public double calculateSalary(String qualification) {
 		
+		System.out.println(housingLoan);
+		
+				System.out.println(houseLoan);
+		
 		 String key = qualification.toUpperCase();
 		switch (key) {
 		case "PG":
@@ -41,4 +49,18 @@ public class PaymentService {
 		}
 		
 	}
+	
+	
+	public static void printHousingLoand() {
+		
+		//System.out.println(housingLoan);
+		
+		System.out.println(houseLoan);
+		
+		// static method accessed without Class name because static import is used
+				System.out.println(sqrt(4));
+				
+	}
+	
+	
 }
