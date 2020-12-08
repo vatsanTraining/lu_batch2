@@ -23,3 +23,70 @@ like his name, mobile number etc., and the plan name , and also amount he has to
 - method names camel case , variable name should be meaningful not one or two - character, class should be in a package and add required comments
 
 ==========================================================================
+DAY -2   LAB -2
+
+ => DONE    1. Method Overloading
+ => DONE    2. Static / variable/method/import
+ =>  DONE   3. Scanner class
+ => DONE    4. Flow Control
+============================================================================
+  DAY 2 - Assignment -2
+
+Create Java Class Book with details like id,bookName,author,price.
+
+Create a Java Class BookService Which will have overloaded methods
+to calculate the price discount .
+
+=> One Method will take book as argument and calculate the discount on the 
+    basis of price - use a simple if else ladder 
+
+=> Another Method will take book and customer type -> Corporate or Retail 
+   and the discount will be calculated using if else-if ladder 
+
+ => Take the input for the application using scanner class 
+
+ =>  Test Both the Methods
+======================================================================== 
+DAY -3 - LAB-1
+
+ =>DONE   1. Arrays 
+ => DONE  2. Inheritance -extends- super-(3)  
+
+ DAY 3 - Assignment -1
+
+Create a Java Class Loan and a sub class Housing Loan , the Loan class
+should have a method called findRateOfInterest ,rate of Interest is calculated
+on the basis of cibilScore  if score >500 rateOfInterest is 7.5 else 8.2
+
+The Housing Loan class overrides the Loan class findRateOfIntest method and returns the interstamount based on simple Interest - It has attributes like loanAmount 
+details of property etc.,
+
+Test the logic using Application class with psvm
+
+
+DAY -3 - LAB-2
+
+ => DONE   1. Abstract Class
+   2. Interfaces
+   3. Polymorphism
+
+DAY 3 - Assignment -2
+
+ 1. In the SavingsAccount and Business Account class override withdraw methods
+    SavingsAccount requires to maintain a minimum balance of 5000
+    Business Account requires to maintain a minimum balance of 25000
+
+   Saving Account holder can deposit upto 100000 
+   Business Account Holder can deposit upto 1000000 
+
+  Show a message if the above condition is not met
+
+Test both deposit and withdraw methods from the Main application
+
+  =================================================================
+
+
+
+
+
+
