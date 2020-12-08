@@ -19,6 +19,7 @@ public class HousingLoan extends Loan {
 
 
 	// User Methods
+	
 	@Override
 	public double findRateOfInterest() {
 		double interestAmount;
