@@ -37,12 +37,23 @@ Create Java Class Book with details like id,bookName,author,price.
 Create a Java Class BookService Which will have overloaded methods
 to calculate the price discount .
 
+
+=======
 => One Method will take book as argument and calculate the discount on the 
     basis of price - use a simple if else ladder 
 
 => Another Method will take book and customer type -> Corporate or Retail 
    and the discount will be calculated using if else-if ladder 
 
+
+ => Take the input for the applicatio using scanner class 
+
+ =>  Test Both the Methods
+======================================================================== 
+
+
+
+=======
  => Take the input for the application using scanner class 
 
  =>  Test Both the Methods
@@ -93,7 +104,7 @@ Day 3 - Assignment -3
   Create a Service with One Method which take Billable as argument and print the calculated amount
    
 
-  =================================================================
+
 
 
 
