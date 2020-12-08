@@ -67,8 +67,8 @@ Test the logic using Application class with psvm
 DAY -3 - LAB-2
 
  => DONE   1. Abstract Class
-   2. Interfaces
-   3. Polymorphism
+ => DONE   2. Interfaces
+ => DONE  3. Polymorphism
 
 DAY 3 - Assignment -2
 
@@ -79,9 +79,19 @@ DAY 3 - Assignment -2
    Saving Account holder can deposit upto 100000 
    Business Account Holder can deposit upto 1000000 
 
-  Show a message if the above condition is not met
+  Show a error message if the above condition is not met
 
 Test both deposit and withdraw methods from the Main application
+
+Day 3 - Assignment -3
+
+  Create an Interface Billable - with a method public double calculate(Object ... objs).
+  Calculate method will calculate the salary based on some condition which 
+  will differ for different classes
+  Create classes like SoftwareEnginner , CivilEnginner, Plumber ,Advocate etc.,
+  Implement the Billable interface in all these classes and override the calculate method
+  Create a Service with One Method which take Billable as argument and print the calculated amount
+   
 
   =================================================================
 
