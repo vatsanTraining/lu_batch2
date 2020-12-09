@@ -16,6 +16,8 @@ public class Application {
 		
 		Footballer suresh = new Footballer("Forward", "Suresh");
 		print(suresh);
+		
+		
 	}
 
 }
