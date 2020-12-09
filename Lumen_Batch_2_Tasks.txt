@@ -125,17 +125,32 @@ Day 3 - Assignment -3
   =================================================================
 Day -4   Lab -1
 
-  1. Exception Handling -with try-catch
-  2. Eception Handling - try-catch-finally
+==> DONE  1. Exception Handling -with try-catch
+==> DONE  2. Eception Handling - try-catch-finally
 
 DAY 4 - Assignment -1
 
-  1. Copy the Class Student class from DataHiding and Encapsulation Project
+  1. Copy the Student Class from any exisiting  Project else create a Student class
+     with attributes like rollNumber,studentName,markScored;
   2. Create a Exception class RangeCheckException Extending java.lang.Exception and      override the getMessage method
   3. Check the markscored is within the range 0 to 100 else throw the      rangecheckException
    4. Do Exception Handling in both setMarkScored and constructor
    5. In setter Method use try catch block
     6. In Constructor use throws clause
+
+
+Day 4 - Lab 2
+
+    1. Copy the Student Class from any exisiting  Project else create a Student class     with attributes like rollNumber,studentName,markScored;
+    2. Add the Serializable Interface to the Student class
+    3. Create a StudentService class and Serialize the Student Object 
+
+DAY 4 - Assignment -2
+
+   1. Add transient to the attribute qualification
+   2. Create a overloaded writeObjectToFile which takes a array of Professor as 
+      argument  , serialize to the file 
+   3. Deserialize the file and print the records
 
 =======================================================================
 
