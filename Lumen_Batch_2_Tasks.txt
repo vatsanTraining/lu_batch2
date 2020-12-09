@@ -1,3 +1,32 @@
+
+DAY - 1 - Lab -1
+
+
+windows task bar type env
+
+Select Environment variable 
+
+Add JAVA_HOME => specify java home location
+
+Edit Path variable =>by added %java_home%\bin
+
+Test by  invoking echo %java_home% from command prompt
+
+======================================
+
+Create a Java Class Student with any three attributes and Constructors 
+
+Create a directory with the name  => bin
+
+The compiled classes should be placed into the bin folder 
+
+Create a Class Application and Invoke the Constructor and call the methods
+
+=================================================================
+Setting the Class Path - Lab
+===================================================
+
+
 ==========================================
 DAY - 2 - Lab -1
 
@@ -37,23 +66,12 @@ Create Java Class Book with details like id,bookName,author,price.
 Create a Java Class BookService Which will have overloaded methods
 to calculate the price discount .
 
-
-=======
 => One Method will take book as argument and calculate the discount on the 
     basis of price - use a simple if else ladder 
 
 => Another Method will take book and customer type -> Corporate or Retail 
    and the discount will be calculated using if else-if ladder 
 
-
- => Take the input for the applicatio using scanner class 
-
- =>  Test Both the Methods
-======================================================================== 
-
-
-
-=======
  => Take the input for the application using scanner class 
 
  =>  Test Both the Methods
@@ -104,7 +122,22 @@ Day 3 - Assignment -3
   Create a Service with One Method which take Billable as argument and print the calculated amount
    
 
+  =================================================================
+Day -4   Lab -1
 
+  1. Exception Handling -with try-catch
+  2. Eception Handling - try-catch-finally
+
+DAY 4 - Assignment -1
+
+  1. Copy the Class Student class from DataHiding and Encapsulation Project
+  2. Create a Exception class RangeCheckException Extending java.lang.Exception and      override the getMessage method
+  3. Check the markscored is within the range 0 to 100 else throw the      rangecheckException
+   4. Do Exception Handling in both setMarkScored and constructor
+   5. In setter Method use try catch block
+    6. In Constructor use throws clause
+
+=======================================================================
 
 
 
