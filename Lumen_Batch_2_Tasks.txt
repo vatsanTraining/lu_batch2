@@ -152,6 +152,14 @@ DAY 4 - Assignment -2
       argument  , serialize to the file 
    3. Deserialize the file and print the records
 
+DAY 4 - Assignment -3
+
+    1. Change the size of arry in readFrom file to  4
+    2. Add 3 More professors to the File using writeToTextFile 
+    3. The Application Should be read all the professors from the file 
+    4. Manage the Array Size programatically.
+    
+
 =======================================================================
 
 
