@@ -147,10 +147,10 @@ Day 4 - Lab 2
 
 DAY 4 - Assignment -2
 
-   1. Add transient to the attribute qualification
-   2. Create a overloaded writeObjectToFile which takes a array of Professor as 
-      argument  , serialize to the file 
-   3. Deserialize the file and print the records
+=>DONE   1. Add transient to the attribute qualification
+=>DONE  2. Create a overloaded writeObjectToFile which takes a array of Professor as 
+          argument  , serialize to the file 
+=>DONE   3. Deserialize the file and print the records
 
 DAY 4 - Assignment -3
 
@@ -159,7 +159,17 @@ DAY 4 - Assignment -3
     3. The Application Should be read all the professors from the file 
     4. Manage the Array Size programatically.
     
+Day 4 - Lab 3
 
+=> DONE     1.Eqauls and Hash Code Method
+=> DONE     2.Final class/method/variable
+=> DONE    3.Java Docs
+=> DONE     4. Packaging Jar
+Day -4  Assignment -4
+
+   1. Explain Equals and HashCode methods
+   2. Immutable in java => java.lang.String
+   
 =======================================================================
 
 
