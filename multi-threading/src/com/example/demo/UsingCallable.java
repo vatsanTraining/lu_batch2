@@ -50,6 +50,7 @@ public class UsingCallable {
 		getFromFuture(task3);
 		
 		
+		executor.shutdown();
 	}
 
 }
