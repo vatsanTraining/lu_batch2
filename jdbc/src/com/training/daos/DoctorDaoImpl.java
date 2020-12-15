@@ -154,6 +154,8 @@ public class DoctorDaoImpl implements DataAccess<Doctor> {
 			  pstmt2.executeUpdate();
 			  
 			  con.commit();
+			  
+			  con.setAutoCommit(true);
 			 
 		} catch (SQLException e) {
 			

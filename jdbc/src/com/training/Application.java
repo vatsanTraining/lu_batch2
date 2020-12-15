@@ -12,7 +12,7 @@ public class Application {
 
 	public static void main(String[] args) {
 
-        int  key=3;
+        int  key=4;
          
         DataAccess<Doctor> dao = new DoctorDaoImpl();
          
@@ -38,6 +38,9 @@ public class Application {
             	 System.out.println(resp);
              }
 			break;
+		case 4:
+			DoctorDaoImpl dao2=(DoctorDaoImpl)dao;
+			 dao2.usingTransaction();
 		default:
 			break;
 		}
