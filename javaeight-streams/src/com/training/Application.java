@@ -1,5 +1,6 @@
 package com.training;
 
+import java.util.List;
 import java.util.Map;
 
 import com.training.services.StreamingService;
@@ -30,8 +31,22 @@ public class Application {
 		}
 		
 		
+		System.out.println("Sorted List");
 		
-		 
+		  service.sortedList().forEach(System.out::println);
+		
+		 	  
+		  List<Number> result = service.findMaxCreditLimit();
+		  
+		  System.out.println("Maximum : = "+ result.get(0));
+		  
+		  System.out.println("Minimum : = "+ result.get(1));
+		  
+		  System.out.println("Count of Elements : = "+ result.get(2));
+		  
+		  
+		  
+
 	}
 
 }
