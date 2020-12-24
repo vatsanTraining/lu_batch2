@@ -60,6 +60,16 @@ public class DoctorDaoImpl implements DataAccess<Doctor> {
 			
 		 
      	ResultSet rs= pstmt.executeQuery();
+     	
+     	
+     	ResultSetMetaData rsmeta = rs.getMetaData();
+     	
+    	 System.out.println("Number of Coloumns" + rsmeta.getColumnCount());
+    	 
+    	 System.out.println("Table Name of Coumn 1 "+rsmeta.getTableName(1));
+
+    	 
+    	    	 
 		
      	   while(rs.next()) {
      		   
@@ -133,7 +143,7 @@ public class DoctorDaoImpl implements DataAccess<Doctor> {
 	 public void usingTransaction() {
 		 
 		 String sql1 = "insert into lumen_doctor(doctorId,doctorName) values(?,?)";
-		 String sql2 = "inseert into lumen_doctor(doctorId,doctorName) values(?,?)";
+		 String sql2 = "insert into lumen_doctor(doctorId,doctorName) values(?,?)";
 		 Savepoint p1=null;
 		 try {
 			

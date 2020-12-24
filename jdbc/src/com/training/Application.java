@@ -7,12 +7,43 @@ import com.training.daos.DoctorDaoImpl;
 import com.training.entity.Doctor;
 import com.training.ifaces.DataAccess;
 import com.training.utils.DbConnectionUtil;
-
+import java.sql.*;
 public class Application {
 
 	public static void main(String[] args) {
 
-        int  key=4;
+		
+       
+       
+       try {
+    	   
+           Connection con = DbConnectionUtil.getMySqlConnection();
+
+		DatabaseMetaData metaData = con.getMetaData();
+		
+		
+		System.out.println(" Database Meta Data - Class :="+
+		            metaData.getClass().getName());
+		
+		System.out.println(" Database Meta Data - Connection URL :="+ 
+		         metaData.getURL());
+		
+		System.out.println(" Database Meta Data - Database Name :="+ 
+		          metaData.getDatabaseProductName());
+		
+		
+		
+		
+		
+		
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+       
+		
+		
+        int  key=2;
          
         DataAccess<Doctor> dao = new DoctorDaoImpl();
          
