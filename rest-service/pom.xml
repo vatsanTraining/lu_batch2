@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.demo</groupId>
-    <artifactId>jax-rs-service</artifactId>
+    <artifactId>rest-service</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jax-rs-service</name>
+    <name>rest-service</name>
 
     <build>
-        <finalName>jax-rs-service</finalName>
+        <finalName>rest-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -22,7 +22,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-war-plugin</artifactId>
@@ -31,6 +30,7 @@
                 <failOnMissingWebXml>false</failOnMissingWebXml>
               </configuration>
     </plugin>
+            
         </plugins>
     </build>
 
@@ -49,11 +49,12 @@
     <dependencies>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
-                        <artifactId>jersey-container-servlet</artifactId>
-                        
+            <artifactId>jersey-container-servlet</artifactId>
+            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
+            <!-- artifactId>jersey-container-servlet</artifactId -->
         </dependency>
         
-         <dependency>
+        <dependency>
     <groupId>org.glassfish.jersey.media</groupId>
     <artifactId>jersey-media-json-jackson</artifactId>
     </dependency>
