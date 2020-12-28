@@ -200,9 +200,9 @@ public class ReportService {
 				try(PrintWriter filePrinter = new PrintWriter(fileName)){
 					filePrinter.println(equalsChar.repeat(55));
 					if(choice==1) {
-						filePrinter.println(fixedLengthString("Mobile Numbers", 44));
+						filePrinter.println(fixedLengthString("Mobile Numbers List", 44));
 					} else {
-						filePrinter.println(fixedLengthString("Email Address", 44));
+						filePrinter.println(fixedLengthString("Email Address List", 44));
 					}
 					filePrinter.println(equalsChar.repeat(55));
 					if(choice==1) {
@@ -216,7 +216,7 @@ public class ReportService {
 						if (choice==1) {
 							filePrinter.println(fixedLengthString(eachContact.getContactName(), 25)+fixedLengthString(eachContact.getMobileNumber(), 18));
 						} else {
-							filePrinter.println(fixedLengthString(eachContact.getContactName(), 25)+fixedLengthString(eachContact.getEmailAddr(), 18));
+							filePrinter.println(fixedLengthString(eachContact.getContactName(), 25)+fixedLengthString(eachContact.getEmailAddr(), 30));
 						}
 					}
 				} catch (FileNotFoundException e) {
@@ -230,9 +230,9 @@ public class ReportService {
 			default:
 				System.out.println(equalsChar.repeat(55));
 				if(choice==1) {
-					System.out.println(fixedLengthString("Mobile Numbers", 44));
+					System.out.println(fixedLengthString("Mobile Numbers List", 44));
 				} else {
-					System.out.println(fixedLengthString("Email Address", 44));
+					System.out.println(fixedLengthString("Email Address List", 44));
 				}
 				System.out.println(equalsChar.repeat(55));
 				if(choice==1) {
