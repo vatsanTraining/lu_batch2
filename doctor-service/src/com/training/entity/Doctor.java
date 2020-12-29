@@ -10,7 +10,6 @@ import com.training.utils.LocalDateSerializer;
 
 public class Doctor {
 
-	
 	private int doctorId;
 	private String doctorName;
 	private long mobileNumber;

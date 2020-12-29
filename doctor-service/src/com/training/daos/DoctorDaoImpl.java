@@ -101,8 +101,24 @@ public class DoctorDaoImpl implements DataAccess<Doctor> {
 
 	@Override
 	public int remove(int id) {
-		// TODO Auto-generated method stub
-		return 0;
+	    String sql = "delete * from  lumen_doctor where doctorId=?";
+		
+        Doctor 	 doctor =null;
+        
+        int  rowDeleted =0;
+        
+		try(PreparedStatement pstmt = con.prepareStatement(sql)) {
+			
+		 pstmt.setInt(1, id);
+   	 
+		 rowDeleted= pstmt.executeUpdate();
+   		
+  	 
+		} catch (SQLException e) {
+
+            e.printStackTrace();		}
+		
+			return rowDeleted;
 	}
 
 	@Override
