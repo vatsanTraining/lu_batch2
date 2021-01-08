@@ -1,7 +1,6 @@
 package com.training.resources;
 
-import java.sql.SQLException;
-import java.time.LocalDate;
+
 import java.util.List;
 
 import javax.ws.rs.Consumes;
