@@ -20,4 +20,5 @@ public class Doctor {
 	private int doctorId;
 	private String doctorName;
 	
+	
 }
